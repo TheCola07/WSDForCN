@@ -1,14 +1,11 @@
 import jieba
 import numpy as np
-# filePath='E:\pyLearn\WSD\Data\中文维基百科语料库 & word2vec\wiki.zh\wiki.zh.txt'
-# filePath = 'E:\pyLearn\WSD\Data\weibo\weiboShow.txt'
-# filePath = r'E:\pyLearn\WSD\Data\weibo\weibo.txt'
-# filePath = r"G:\Game\wiki_zh_2019\wiki_zh\test.txt"
-filePath = r"G:\Game\baike_qa2019\baike_qa_train.txt"
 
-fileSegWordDonePath ='E:\pyLearn\WSD\Data\corpusSegDone_1.txt'
+filePath = r"\\WSDForCN\data\baike_qa_train.txt"
 
-# 打印中文列表
+fileSegWordDonePath ='\\WSD\data\corpusSegDone_1.txt'
+
+# 打印中文列表（用于显示文件内容）
 def PrintListChinese(list):
     for i in range(len(list)):
         print (list[i]) 
