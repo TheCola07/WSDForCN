@@ -1,7 +1,7 @@
 from gensim.models import Word2Vec
 import numpy as np
 import jieba
-model = Word2Vec.load(r'E:\pyLearn\WSD\Data\corpusSegDone_1.model')
+model = Word2Vec.load(r'\\WSDForCN\data\corpusSegDone_1.model')
 
 print(model.wv.most_similar(u"放"))
 
