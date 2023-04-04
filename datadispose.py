@@ -2,15 +2,9 @@ import sys
 import re
 import json
 
-# filePath = r'E:\pyLearn\WSD\Data\中文维基百科语料库 & word2vec\wiki.zh\wiki.zh.txt'
-# filePath = r'E:\pyLearn\WSD\Data\weibo\weibo.txt'
-# filePath = r'E:\pyLearn\WSD\Data\corpusSegDone_1.txt'
-# filePath = r"G:\Game\wiki_zh_2019\wiki_zh\AA\wiki_00"
-filePath = r"G:\Game\baike_qa2019\baike_qa_train.json"
+filePath = r"\\WSDForCN\data\baike_qa_train.json"
 
-# filewrite = r'E:\pyLearn\WSD\Data\weibo\weiboShow.txt'
-# filewrite = r"G:\Game\wiki_zh_2019\wiki_zh\test.txt"
-filewrite = r"G:\Game\baike_qa2019\baike_qa_train.txt"
+filewrite = r"\\WSDForCN\data\baike_qa_train.txt"
 
 """
 name = ['AA', 'AB', 'AC', 'AD', 'AE', 'AF', 'AG', 'AH', 'AI', 'AJ', 'AK', 'AL', 'AM']
